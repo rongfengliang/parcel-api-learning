@@ -1,0 +1,19 @@
+{
+  "name": "mynpm-app",
+  "version": "1.0.0",
+  "source": "index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  },
+  "scripts": {
+    "build": "parcel build",
+    "watch": "parcel --public-url http://localhost:1234"
+  },
+  "dependencies": {
+    "@parcel/config-default": "^2.2.1",
+    "@parcel/core": "^2.2.1",
+    "@parcel/fs": "^2.2.1",
+    "lit": "^2.1.2"
+  }
+}
